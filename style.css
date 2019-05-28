@@ -1,0 +1,164 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: #0f8a9d;
+    background-image: url("pexels-photo-618833.jpeg");
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%; height: 100px;
+    /*background-color:  red;*/
+    display: flex; color: white;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu{
+    width: 50%; height: 100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+
+
+nav a{text-decoration:none;
+color:#fff;
+line-height:100 px;
+display:inline-block;
+text-align: centre;
+margin-left:1%;
+display: block;}
+nav a:hover{
+	color: #000;
+	transition: 1s all;
+	border: 1 px solid #fff;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section{ display: flex;  }
+
+
+
+.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 2px
+    } 
+.rightside h1 span{
+	background-color: #000;
+}
+
+
+.rightside p {  
+    font-size: 1.1rem; padding: 30px 0; }
+
+.rightside button{   font-size: 17px;
+    font-weight: 600;
+    color: white;
+    
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 35px ; 
+}
+
+
+
+.rightside button:hover{
+      background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}
+
+
+.main-heading{
+	text-align: center;
+}
+.text-center{
+	padding-left:  200px;
+	padding-right:  200px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+ 
+  padding: 10px;
+}
+
+
+.JK {
+  align-items: center;
+  width: 50%;
+  margin-top: 6px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/
+.HJ:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
